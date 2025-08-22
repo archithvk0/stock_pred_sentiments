@@ -46,26 +46,27 @@ def main():
 def install_dependencies():
     """Install all required dependencies"""
     packages = [
-        "pandas>=1.5.0",
-        "numpy>=1.21.0", 
-        "matplotlib>=3.5.0",
-        "seaborn>=0.11.0",
-        "scikit-learn>=1.1.0",
-        "tensorflow>=2.10.0",
-        "torch>=1.12.0",
-        "transformers>=4.20.0",
-        "yfinance>=0.1.70",
-        "alpha-vantage>=2.3.1",
-        "vaderSentiment>=3.3.2",
-        "textblob>=0.17.1",
-        "nltk>=3.7",
-        "spacy>=3.4.0",
-        "requests>=2.28.0",
-        "beautifulsoup4>=4.11.0",
-        "plotly>=5.10.0",
-        "python-dotenv>=0.19.0",
-        "tqdm>=4.64.0"
-    ]
+    "praw>=7.6.0",
+    "vaderSentiment>=3.3.2", 
+    "textblob>=0.17.1",
+    "nltk>=3.7",
+    "spacy>=3.4.0",
+    "transformers>=4.20.0",
+    "torch>=1.12.0",
+    "tensorflow>=2.10.0",
+    "yfinance>=0.1.70",
+    "alpha-vantage>=2.3.1",
+    "requests>=2.28.0",
+    "beautifulsoup4>=4.11.0",
+    "plotly>=5.10.0",
+    "python-dotenv>=0.19.0",
+    "tqdm>=4.64.0",
+    "scikit-learn>=1.1.0",
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0"
+]
     
     for package in packages:
         try:
